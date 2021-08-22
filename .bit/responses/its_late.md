@@ -1,5 +1,5 @@
 ## Running Late ⏰
-Create a function `running_late()` in JavaScript that returns `It is late!` if the time is after 10:00 PM, and `It is still early!` if it is not.
+Create a function `running_late()` in JavaScript that returns `It is late!` if the time is at or after 10:00 PM, and `It is still early!` if it is not.
 
 ### 🔨 Function Specs:
 **Function name**: `running_late()`
