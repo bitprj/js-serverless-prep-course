@@ -2,10 +2,12 @@
 Create a function `find_max()` that takes in an array as a parameter and returns the element with the maximum value in the array. 
 
 ### 🔨 Function Specs:
-Arguments: 
+**Function name:** `find_max()`
+
+**Arguments:**
 - `arr` - the array that is passed into the `find_max` function
 
-Return:
+**Return:**
 - the maximum element in the `arr` array
 
 ### 🧠 Resources:
