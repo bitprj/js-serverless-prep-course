@@ -17,3 +17,5 @@ Return:
 ⭐ if the array passed in is `[1, 78, 12, 2, 5, 10]`, the function should return `[1, 2, 5, 10, 12, 78]`
 ⭐ if the array passed in is `[1, 2, 3, 3, -1]`, the function should return `[-1, 1, 2, 3, 3]`
 
+
+💡 Make sure to put the line `module.exports = bubble_sort` at the end of your file so we can test your code!

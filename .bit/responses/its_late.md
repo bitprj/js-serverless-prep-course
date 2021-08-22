@@ -20,3 +20,4 @@ Create a function `running_late()` in JavaScript that returns `It is late!` if t
 ⭐ if the time is 8:00 AM, your function should return `It is still early!`
 ⭐ if the time is 11:30 PM, your function should return `It is late!`
 
+💡 Make sure to put the line `module.exports = running_late` at the end of your file so we can test your code!
