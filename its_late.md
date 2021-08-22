@@ -1,11 +1,14 @@
 ## Running Late ⏰
-Create a function in JavaScript that returns `It is late!` if the time is after 10:00 PM, and `It is still early!` if it is not.
+Create a function `running_late()` in JavaScript that returns `It is late!` if the time is after 10:00 PM, and `It is still early!` if it is not.
 
-### Function Specs:
-Arguments: 
+### 🔨 Function Specs:
+**Function name**: `running_late()`
+
+**Arguments:**
 - `date` - a string that the `new Date()` is created from.
+> Do NOT use `Date.now()`
 
-Return:
+**Return:**
 - Either `It is late!` or `It is still early!`, depending on the time.
 
 ### 🧠 Resources:
