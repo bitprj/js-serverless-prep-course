@@ -1,8 +1,8 @@
-name: word
+name: specific
 on:
   push:
     branches:
-      - word
+      - specific
 
 jobs:
   build:
