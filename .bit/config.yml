@@ -42,3 +42,49 @@ steps:
           with: mergepr.md
           files: ['n/a']
           scripts: late.js
+    - title: Merge the PR
+      description: 'Tasks:'
+      event: pull_request.closed
+      stepType: PRmerge
+      actions:
+        - type: respond
+          with: hello.md
+          files: ['n/a']
+          scripts: n/a
+        - type: createIssue
+          title: 'Bubble Sort'
+          body: bubble_sort.md
+        - type: closeIssue
+    - title: 'Bubble Sort'
+      description: 'Task:'
+      event: workflow_run.completed
+      stepType: checks
+      branch: max
+      actions:
+        - type: respond
+          with: mergepr.md
+          files: ['n/a']
+          scripts: late.js
+    - title: Merge the PR
+      description: 'Tasks:'
+      event: pull_request.closed
+      stepType: PRmerge
+      actions:
+        - type: respond
+          with: hello.md
+          files: ['n/a']
+          scripts: n/a
+        - type: createIssue
+          title: 'Bubble Sort'
+          body: bubble_sort.md
+        - type: closeIssue
+    - title: 'Sent 1s'
+      description: 'Task:'
+      event: workflow_run.completed
+      stepType: checks
+      branch: max
+      actions:
+        - type: respond
+          with: mergepr.md
+          files: ['n/a']
+          scripts: late.js
