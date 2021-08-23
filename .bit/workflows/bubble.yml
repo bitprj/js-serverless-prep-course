@@ -30,7 +30,7 @@ jobs:
         if: ${{steps.vars.outputs.count == 4 && github.event.head_commit.message != 'Update progress'}}
         run: |
           npm install node-fetch
-          node .bit/tests/late.js --repo=${{github.event.repository.name}} --user=${{github.repository_owner}}
+          node .bit/tests/test_bubble_sort.js --repo=${{github.event.repository.name}} --user=${{github.repository_owner}}
       - name: Check for branch
         if: ${{steps.vars.outputs.count > 12 && github.event.head_commit.message != 'Update progress'}}
         run: |
