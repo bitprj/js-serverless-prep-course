@@ -32,4 +32,13 @@ steps:
           title: 'Max Nums'
           body: max_nums.md
         - type: closeIssue
-    
+    - title: 'Max Nums'
+      description: 'Task:'
+      event: workflow_run.completed
+      stepType: checks
+      branch: max
+      actions:
+        - type: respond
+          with: mergepr.md
+          files: ['n/a']
+          scripts: late.js
