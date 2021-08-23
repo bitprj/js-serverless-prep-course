@@ -1,4 +1,4 @@
-## Part 2: Sentence Analyzer - Specific Letter Counter
+## Part 3: Sentence Analyzer - Specific Letter Counter
 Oooh, this step is a little bit harder! Don't worry if you can't finish this step entirely, do the best you can :)
 
 ### 🔨 Function Specs:
