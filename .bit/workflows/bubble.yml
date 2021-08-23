@@ -1,8 +1,8 @@
-name: Morse
+name: bubble
 on:
   push:
     branches:
-      - morse
+      - bubble
 
 jobs:
   build:

@@ -1,8 +1,8 @@
-name: Morse
+name: max
 on:
   push:
     branches:
-      - morse
+      - max
 
 jobs:
   build:

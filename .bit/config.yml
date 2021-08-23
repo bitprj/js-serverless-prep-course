@@ -59,7 +59,7 @@ steps:
       description: 'Task:'
       event: workflow_run.completed
       stepType: checks
-      branch: max
+      branch: bubble
       actions:
         - type: respond
           with: mergepr.md
@@ -82,7 +82,7 @@ steps:
       description: 'Task:'
       event: workflow_run.completed
       stepType: checks
-      branch: max
+      branch: sentence
       actions:
         - type: respond
           with: mergepr.md
