@@ -20,4 +20,4 @@ function bubble_sort(arr) {
     return arr;
 }
 
-module.exports = bubble_sort
+exports.bubble_sort = bubble_sort

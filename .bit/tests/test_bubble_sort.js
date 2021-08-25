@@ -4,7 +4,7 @@ const user = args['user'];
 const repo = args['repo'];
 
 async function main() {
-    try { bubble_sort = require('./../../bubble_sort.js') }
+    try { bbs = require('./../../bubble_sort.js') }
     catch (e) {
         console.log("Searching for 'bubble_sort.js'... file cannot be found");
         await functions.throwError("Searching for 'bubble_sort.js'... file cannot be found", user, repo)
@@ -15,8 +15,17 @@ async function main() {
 
     let testArray = [234, 43, 55, 63, 5, 6, 235, 547];
     let correctRes = [5, 6, 43, 55, 63, 234, 235, 547];
+    let user_bubble;
 
-    let user_bubble = bubble_sort(testArray);
+    try {
+        user_bubble = bbs.bubble_sort(testArray);
+    }
+    catch (e) {
+        console.log("Searching for function 'bubble_sort()'... function cannot be found");
+        await functions.throwError("Searching for function 'bubble_sort()'... function cannot be found", user, repo)
+        process.exit(1);
+    }
+
 
     if (JSON.stringify(user_bubble) != JSON.stringify(correctRes)) {
         console.log(`Got: "${user_bubble}", was expecting: "${correctRes}".`)
