@@ -14,7 +14,7 @@ async function main() {
 
     // first test 
     let testInput = "Ganning is cooll!!";
-    let correctOutput = { G: 1, a: 1, n: 3, i: 2, g: 1, s: 1, c: 1, o: 2, l: 2 };
+    let correctOutput = { G: 1, a: 1, n: 3, i: 2, g: 1, s: 1, c: 1, o: 2, l: 1 };
 
     try {
         userOutput = slc.spec_letter_counter(testInput);
@@ -26,8 +26,10 @@ async function main() {
     }
 
     if (JSON.stringify(userOutput) != JSON.stringify(correctOutput)) {
-        console.log(`We plugged in ${JSON.stringify(testInput)}. Got: '${JSON.stringify(userOutput)}', was expecting: '${JSON.stringify(correctOutput)}'.`)
-        await functions.throwError(`We plugged in ${JSON.stringify(testInput)}. Got: '${JSON.stringify(userOutput)}', was expecting: '${JSON.stringify(correctOutput)}'.`, user, repo)
+        correctOutput = JSON.stringify(correctOutput).replace(/"/g, "'");
+        userOutput = JSON.stringify(userOutput).replace(/"/g, "'");
+        console.log(`We plugged in ${testInput}. Got: ${userOutput}, was expecting: ${correctOutput}.`)
+        await functions.throwError(`We plugged in ${testInput}. Got: ${userOutput}, was expecting: ${correctOutput}.`, user, repo)
         process.exit(1);
     }
 
