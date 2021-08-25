@@ -1,6 +1,6 @@
 ## Congratulations!!
 
-<div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/xT8qBepJQzUjXpeWU8" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
+![congrats gif](https://media.giphy.com/media/xT8qBepJQzUjXpeWU8/giphy.gif?cid=ecf05e47ho9teijqhlk37yah9iyw8ahk2clxa58cxb6kk9xe&rid=giphy.gif&ct=g)
 
 #### Next Steps:
 1. Paste the link to this repo into the application form (make sure this repo is public)
