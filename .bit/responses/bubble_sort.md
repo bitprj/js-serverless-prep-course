@@ -4,6 +4,7 @@
 3. Commit your code to the `bubble` branch. 
 4. Create a pull request to merge the `bubble` branch onto `main`, and only merge the pull request when the bot approves your changes. 
 
+> ❗ for this step, edit the `bubble_sort.js` file
 
 ### 🔨 Function Specs:
 Arguments: 

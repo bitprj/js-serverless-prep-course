@@ -4,7 +4,7 @@
 3. Commit your code to the `late` branch. 
 4. Create a pull request to merge the `late` branch onto `main`, and only merge the pull request when the bot approves your changes. 
 
-
+> ❗ for this step, edit the `late.js` file
 
 ### 🔨 Function Specs:
 **Function name**: `running_late()`

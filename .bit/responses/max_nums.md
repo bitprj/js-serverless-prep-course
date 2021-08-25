@@ -4,6 +4,7 @@
 3. Commit your code to the `max` branch. 
 4. Create a pull request to merge the `max` branch onto `main`, and only merge the pull request when the bot approves your changes. 
 
+> ❗ for this step, edit the `max_nums.js` file
 
 ### 🔨 Function Specs:
 **Function name:** `find_max()`

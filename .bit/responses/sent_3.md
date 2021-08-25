@@ -6,6 +6,8 @@ Oooh, this step is a little bit harder! Don't worry if you can't finish this ste
 3. Commit your code to the `specific` branch. 
 4. Create a pull request to merge the `specific` branch onto `main`, and only merge the pull request when the bot approves your changes. 
 
+> ❗ for this step, edit the `spec_letter_counter.js` file
+
 ### 🔨 Function Specs:
 **Function name:** `spec_letter_counter()`
 

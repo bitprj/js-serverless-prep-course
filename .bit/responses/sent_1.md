@@ -5,6 +5,8 @@
 4. Create a pull request to merge the `letter` branch onto `main`, and only merge the pull request when the bot approves your changes. 
 In the follow 3 steps, you will create a program that analyzes a sentence (how cool is that 😎)
 
+> ❗ for this step, edit the `letter_counter.js` file
+
 ### 🔨 Function Specs:
 **Function name:** `letter_counter()`
 
