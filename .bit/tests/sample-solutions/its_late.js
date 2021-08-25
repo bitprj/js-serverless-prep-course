@@ -7,5 +7,5 @@ function running_late(date_str) {
     return "It is still early!"
 }
 
-let test_str = "December 17, 1995 22:24:00"
-console.log(running_late(test_str))
+// let test_str = "December 17, 1995 22:24:00"
+exports.running_late = running_late
