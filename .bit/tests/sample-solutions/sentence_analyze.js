@@ -10,7 +10,7 @@ function letter_counter(sentence) {
     return count;
 }
 
-// console.log(letter_counter("Ganning is cool"))
+// console.log(letter_counter("what do you want?! ?!"))
 
 function word_counter(sentence) {
     return sentence.split(" ").length;
@@ -38,6 +38,6 @@ function spec_letter_counter(sentence) {
 
     return counter;
 }
-// console.log(spec_letter_counter("Ganning is cooll!!"))
+console.log(spec_letter_counter("Ganning is cooll!!"))
 
 
