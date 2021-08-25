@@ -29,7 +29,7 @@ jobs:
       - name: Step 10
         if: ${{steps.vars.outputs.count == 10 && github.event.head_commit.message != 'Update progress'}}
         run: |
-          node .bit/tests/sent_3.js --repo=${{github.event.repository.name}} --user=${{github.repository_owner}}
+          node .bit/tests/test_sent_3.js --repo=${{github.event.repository.name}} --user=${{github.repository_owner}}
       - name: Check for branch
         if: ${{steps.vars.outputs.count > 12 && github.event.head_commit.message != 'Update progress'}}
         run: |
