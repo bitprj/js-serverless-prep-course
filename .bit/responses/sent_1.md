@@ -1,4 +1,8 @@
 ## Part 1: Sentence Analyzer - Letter Counter
+1. Create a new branch from `main` named `letter`. 
+2. Create a function named `letter_counter` that takes in a `sentence` string as a parameter and returns how many letters there are in that entire sentence.
+3. Commit your code to the `letter` branch. 
+4. Create a pull request to merge the `letter` branch onto `main`, and only merge the pull request when the bot approves your changes. 
 In the follow 3 steps, you will create a program that analyzes a sentence (how cool is that 😎)
 
 ### 🔨 Function Specs:
@@ -10,5 +14,6 @@ Create a function that takes in `sentence` as a parameter and returns how many l
 
 ### 📝 Test your work:
 ⭐ if the `sentence` parameter is "Bit Project is the best!", the function should return `19`
+
 ⭐ if the `sentence` parameter is "Good luck on your application", the function should return `25`
 

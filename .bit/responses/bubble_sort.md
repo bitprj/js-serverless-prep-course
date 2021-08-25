@@ -1,5 +1,9 @@
 ## Bubble Sort 💬
-Create a function `bubble_sort()` that takes a paramter of `arr`, which is an array, and returns the sorted version of that array using bubble sort. 
+1. Create a new branch from `main` named `bubble`. 
+2. Create a function `bubble_sort()` that takes a paramter of `arr`, which is an array, and returns the sorted version of that array using bubble sort. 
+3. Commit your code to the `bubble` branch. 
+4. Create a pull request to merge the `bubble` branch onto `main`, and only merge the pull request when the bot approves your changes. 
+
 
 ### 🔨 Function Specs:
 Arguments: 

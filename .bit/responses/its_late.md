@@ -1,5 +1,10 @@
 ## Running Late ⏰
-Create a function `running_late()` in JavaScript that returns `It is late!` if the time is at or after 10:00 PM, and `It is still early!` if it is not.
+1. Create a new branch from `main` named `late`. 
+2. Create a function `running_late()` in JavaScript that returns `It is late!` if the time is at or after 10:00 PM, and `It is still early!` if it is not. 
+3. Commit your code to the `late` branch. 
+4. Create a pull request to merge the `late` branch onto `main`, and only merge the pull request when the bot approves your changes. 
+
+
 
 ### 🔨 Function Specs:
 **Function name**: `running_late()`
