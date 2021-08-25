@@ -17,13 +17,7 @@ function bubble_sort(arr) {
         }
     }
     // Print the sorted array
-    console.log(arr);
+    return arr;
 }
 
-
-// This is our unsorted array
-var arr = [234, 43, 55, 63, 5, 6, 235, 547];
-
-
-// Now pass this array to the bblSort() function
-bubble_sort(arr);
+exports.bubble_sort = bubble_sort
