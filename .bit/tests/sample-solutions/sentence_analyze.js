@@ -38,6 +38,6 @@ function spec_letter_counter(sentence) {
 
     return counter;
 }
-console.log(spec_letter_counter("Ganning is cooll!!"))
+console.log(spec_letter_counter("I really like food"))
 
 
