@@ -14,7 +14,7 @@ async function main() {
 
     // first test 
     let testInput = "Ganning is cooll!!";
-    let correctOutput = { G: 1, a: 1, n: 3, i: 2, g: 1, s: 1, c: 1, o: 2, l: 1 };
+    let correctOutput = { G: 1, a: 1, n: 3, i: 2, g: 1, s: 1, c: 1, o: 2, l: 2 };
 
     try {
         userOutput = slc.spec_letter_counter(testInput);
