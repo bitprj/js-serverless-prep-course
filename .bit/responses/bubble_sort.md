@@ -1,8 +1,9 @@
 ## Bubble Sort 💬
 1. Create a new branch from `main` named `bubble`. 
 2. Create a function `bubble_sort()` that takes a paramter of `arr`, which is an array, and returns the sorted version of that array using bubble sort. 
-3. Commit your code to the `bubble` branch. 
-4. Create a pull request to merge the `bubble` branch onto `main`, and only merge the pull request when the bot approves your changes. 
+3. Once the function is created, export it at the bottom of your file: `exports.bubble_sort = bubble_sort` (so we can test your code!)
+4. Commit your code to the `bubble` branch. 
+5. Create a pull request to merge the `bubble` branch onto `main`, and only merge the pull request when the bot approves your changes. 
 
 > ❗ for this step, edit the `bubble_sort.js` file
 
