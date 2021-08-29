@@ -3,8 +3,9 @@ Oooh, this step is a little bit harder! Don't worry if you can't finish this ste
 
 1. Create a new branch from `main` named `specific`. 
 2. Create a function named `spec_letter_counter` that takes in a `sentence` string as a parameter and returns a JSON object with the count of each letter.
-3. Commit your code to the `specific` branch. 
-4. Create a pull request to merge the `specific` branch onto `main`, and only merge the pull request when the bot approves your changes. 
+3. Once the function is created, export it at the bottom of your file: `exports.spec_letter_counter = spec_letter_counter` (so we can test your code!)
+4. Commit your code to the `specific` branch. 
+5. Create a pull request to merge the `specific` branch onto `main`, and only merge the pull request when the bot approves your changes. 
 
 > ❗ for this step, edit the `spec_letter_counter.js` file
 
