@@ -1,5 +1,5 @@
-# ⚡️ You're ready for Serverless!
+# 🌟 Good Job!
 
-Move on to the next issue.
+You've completed this step!
 
-![moveon](https://media.giphy.com/media/xXflsa7VrvT7gGzNFN/giphy.gif)
+![yay](https://media.giphy.com/media/TdfyKrN7HGTIY/giphy.gif?cid=ecf05e47igvzae8we67vmabpbrxyu3u8v0qvpwhcvpyyi2mt&rid=giphy.gif&ct=g)
