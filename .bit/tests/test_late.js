@@ -26,8 +26,8 @@ async function main() {
     }
 
     if (correctOutput != userOutput) {
-        console.log(`Got: "${userOutput}", was expecting: "${correctOutput}".`)
-        await functions.throwError(`Got: '${userOutput}', was expecting: '${correctOutput}'.`, user, repo)
+        console.log(`We plugged in: ${testInput}. Got: "${userOutput}", was expecting: "${correctOutput}".`)
+        await functions.throwError(`We plugged in: ${testInput}. Got: '${userOutput}', was expecting: '${correctOutput}'.`, user, repo)
         process.exit(1);
     }
 
@@ -46,8 +46,8 @@ async function main() {
     }
 
     if (correctOutput != userOutput) {
-        console.log(`Got: "${userOutput}", was expecting: "${correctOutput}".`)
-        await functions.throwError(`Got: '${userOutput}', was expecting: '${correctOutput}'.`, user, repo)
+        console.log(`We plugged in: ${testInput}. Got: "${userOutput}", was expecting: "${correctOutput}".`)
+        await functions.throwError(`We plugged in: ${testInput}. Got: '${userOutput}', was expecting: '${correctOutput}'.`, user, repo)
         process.exit(1);
     }
 
