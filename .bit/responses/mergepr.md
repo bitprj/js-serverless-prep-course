@@ -1,7 +1,5 @@
-# ⏰ Time to merge!
+# 🌟 Good Job!
 
-Go ahead and merge this branch to `main` to move on. Great work finishing this section!
+You've completed this step!
 
-![merge](https://media.giphy.com/media/tODygE8KCqBzy/giphy.gif)
-
-> ⚠️ If you receive a `Conflicts` error, simply press `Resolve conflicts` and you should be good to merge!
+![yay](https://media.giphy.com/media/TdfyKrN7HGTIY/giphy.gif?cid=ecf05e47igvzae8we67vmabpbrxyu3u8v0qvpwhcvpyyi2mt&rid=giphy.gif&ct=g)
