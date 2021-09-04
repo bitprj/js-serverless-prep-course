@@ -1,8 +1,9 @@
+
 name: Getting Started
 on:
   push:
     branches:
-      - late
+      - hello
 
 jobs:
   build:
@@ -26,7 +27,7 @@ jobs:
         id: vars
         run: echo ::set-output name=count::$(node ./.bit/scripts/getProgress.js --repo=${{github.event.repository.name}} --owner=${{github.repository_owner}} )
 
-      - name: Step 4
-        if: ${{steps.vars.outputs.count == 4 && github.event.head_commit.message != 'Update progress'}}
+      - name: Step 1
+        if: ${{steps.vars.outputs.count == 1 && github.event.head_commit.message != 'Update progress'}}
         run: |
-          node .bit/tests/test_late.js --repo=${{github.event.repository.name}} --user=${{github.repository_owner}}
+          node .bit/tests/test.1.2.js --repo=${{github.event.repository.name}} --user=${{github.repository_owner}}
