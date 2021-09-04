@@ -11,7 +11,7 @@ async function main() {
         process.exit(1)
     }
 
-    let helloworld = hello()
+    let helloworld = hello.hello()
     let test_output = "Hello World"
 
     if (helloworld != test_output) {
