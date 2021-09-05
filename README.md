@@ -30,7 +30,36 @@ Here's a general overview of application into our serverless bootcamp.
 2. Complete steps listed in the instructions
 3. Commit your code to the branch specified in the instructions
 4. Create a pull request to merge the branch you are working on onto `main` (FIRST STEP ONLY: [draft the pull request](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request), then mark it as ready for review)
-5. If the bot approves your changes, there wil
+5. If the bot approves your pull request, then **merge the pull request**
+6. If the bot does not approve your changes, look at what the bot comments, and **fix your code accordingly**
+
+
+## Approve or not?
+
+**‼️ Bot approving pull request**
+
+<img width="726" alt="Screen Shot 2021-09-04 at 8 46 09 PM" src="https://user-images.githubusercontent.com/62436772/132111402-075c9444-2f50-4be4-973f-e7c50cc04bd3.png">
+
+CounselorBot will comment this on your pull request if you completed the step correctly!
+
+> ✅ Merge the pull request if the bot approves your changes!
+
+<br />
+<br />
+<br />
+<br />
+<br />
+
+**‼️ Bot not approving pull request**
+
+<img width="918" alt="Screen Shot 2021-09-04 at 8 58 49 PM" src="https://user-images.githubusercontent.com/62436772/132111552-355379c2-adc1-4cbb-acf9-f9919c5ab55e.png">
+
+When this happens, don't worry! Try to debug your code and commit the code again to the branch you are working on (not `main`), when you are ready for the bot to check your code again. 
+
+> ❌ When the bot does NOT approve your pull request, do NOT merge the pull request
+
+
+
 
 ## 📖 Helpful Resources
 - [Mozilla Developer Network (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
