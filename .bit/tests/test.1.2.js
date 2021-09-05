@@ -4,7 +4,7 @@ const user = args['user'];
 const repo = args['repo'];
 
 async function main() {
-    try { hello = require('./../../week1/helloworld.js') }
+    try { hello = require('./../../helloworld.js') }
     catch (e) {
         await functions.throwError("Searching for 'helloworld.js'... file cannot be found", user, repo)
         console.log("Searching for 'helloworld.js'... file cannot be found");

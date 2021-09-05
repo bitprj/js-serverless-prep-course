@@ -25,6 +25,13 @@ Here's a general overview of application into our serverless bootcamp.
 8. Click on the `Issues` tab again to refresh the page
 9. Click into the first issue, and get started :)
 
+## 📝 Once the first issue is created...
+1. Read the instructions COMPLETELY
+2. Complete steps listed in the instructions
+3. Commit your code to the branch specified in the instructions
+4. Create a pull request to merge the branch you are working on onto `main` (FIRST STEP ONLY: [draft the pull request](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request), then mark it as ready for review)
+5. If the bot approves your changes, there wil
+
 ## 📖 Helpful Resources
 - [Mozilla Developer Network (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 - [How to use GitHub](https://www.youtube.com/watch?v=PQsJR8ci3J0)
