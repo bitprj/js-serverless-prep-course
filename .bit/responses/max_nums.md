@@ -1,14 +1,14 @@
 ## Max Numbers 📈
-1. Create a new branch from `main` named `max`. 
-2. Create a function `find_max()` that takes in an array as a parameter and returns the element with the maximum value in the array. 
-3. Once the function is created, export it at the bottom of your file: `exports.find_max = find_max` (so we can test your code!)
-4. Commit your code to the `max` branch. 
-5. Create a pull request to merge the `max` branch onto `main`, and only merge the pull request when the bot approves your changes. 
+- [ ] Create a new branch from `main` named `max`. 
+- [ ] Create a function `find_max(arr)` that takes in an array as a parameter and returns the element with the maximum value in the array. 
+- [ ] Once the function is created, export it at the bottom of your file: `exports.find_max = find_max` (so we can test your code!)
+- [ ] Commit your code to the `max` branch. 
+- [ ] Create a pull request to merge the `max` branch onto `main`, and only merge the pull request when the bot approves your changes. 
 
 > ❗ for this step, edit the `max_nums.js` file
 
 ### 🔨 Function Specs:
-**Function name:** `find_max()`
+**Function name:** `find_max(arr)`
 
 **Arguments:**
 - `arr` - the array that is passed into the `find_max` function
