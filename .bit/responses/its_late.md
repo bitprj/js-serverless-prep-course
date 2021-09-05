@@ -1,9 +1,9 @@
 ## Running Late ⏰
-1. Create a new branch from `main` named `late`. 
-2. Create a function `running_late(date)` in JavaScript that returns `It is late!` if the time is at or after 10:00 PM, and `It is still early!` if it is not. 
-3. Once the function is created, export it at the bottom of your file: `exports.running_late = running_late` (so we can test your code!)
-4. Commit your code to the `late` branch. 
-5. Create a pull request to merge the `late` branch onto `main`, and only merge the pull request when the bot approves your changes. 
+- [ ] Create a new branch from `main` named `late`. 
+- [ ] Create a function `running_late(date)` in JavaScript that returns `It is late!` if the time is at or after 10:00 PM, and `It is still early!` if it is not. 
+- [ ] Once the function is created, export it at the bottom of your file: `exports.running_late = running_late` (so we can test your code!)
+- [ ] Commit your code to the `late` branch. 
+- [ ] Create a pull request to merge the `late` branch onto `main`, and only merge the pull request when the bot approves your changes. 
 
 > ❗ for this step, edit the `late.js` file
 
