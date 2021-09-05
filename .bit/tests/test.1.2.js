@@ -11,8 +11,20 @@ async function main() {
         process.exit(1)
     }
 
-    let helloworld = hello.hello()
-    let test_output = "Hello World"
+
+    let helloworld;
+    let test_output;
+
+    try {
+        helloworld = hello.hello()
+        test_output = "Hello World"
+    }
+    catch (e) {
+        await functions.throwError("Can't find the function `hello`. Did you export it?", user, repo)
+        console.log("Can't find the function `hello`. Did you export it?");
+        process.exit(1)
+    }
+
 
     if (helloworld != test_output) {
         await functions.throwError(`Got: '${helloworld}', was expecting: '${test_output}'.`, user, repo)
