@@ -9,7 +9,7 @@ before:
       title: Getting Started with Serverless
       body: 1.1-Week 1 Step 1.md
 steps:
-    - title: 'Week 1: GitHub'  
+    - title: 'Learning GitHub'  
       description: 'Task:'
       event: pull_request.closed
       stepType: PRmerge
@@ -19,10 +19,10 @@ steps:
           files: ['blog.md']
           scripts: n/a
         - type: createIssue
-          title: 'Week 1: Say Hello to VSCode'
+          title: 'Say Hello to VSCode'
           body: 1.2-Week 1 Step 2.md
         - type: closeIssue
-    - title: 'Week 1: Say Hello to VSCode' 
+    - title: 'Say Hello to VSCode' 
       description: 'Task:'
       event: workflow_run.completed
       stepType: checks
@@ -42,10 +42,10 @@ steps:
           files: ['n/a']
           scripts: n/a
         - type: createIssue
-          title: 'Week 1: Getting Cat Pics with Postman'
+          title: 'Getting Cat Pics with Postman'
           body: 1.3-Week 1 Step 3.md
         - type: closeIssue
-    - title: 'Week 1: Getting Cat Pics with Postman' 
+    - title: 'Getting Cat Pics with Postman' 
       description: 'Task:'
       event: issue_comment.created
       stepType: IssueComment
