@@ -3,7 +3,7 @@ This repository will guide you through how to apply to the Bit Project [Serverle
 
 ## ❓ Huh? 
 Here's a general overview of application into our serverless bootcamp.
-1. Complete this [information form](LINK), so we can contact you if you get accepted :)
+1. Complete this [information form](https://jkfr7wbzytt.typeform.com/serverless-camp), so we can contact you if you get accepted :)
 2. Use this repository to complete the required coding portion!
 
 ## 🌟 General Tips
