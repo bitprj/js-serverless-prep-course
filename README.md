@@ -1,5 +1,9 @@
 # Application - Serverless Camp ⚡
+
+
 This repository will guide you through how to apply to the Bit Project [Serverless Camp](https://www.bitproject.org/serverless)!
+
+![ReadMe](https://user-images.githubusercontent.com/62436772/153479288-69bd4c88-0e09-4d86-a85f-88e891a0cba3.png)
 
 ## ❓ Huh? 
 Here's a general overview of application into our serverless bootcamp.
