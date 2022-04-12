@@ -19,6 +19,8 @@ Here's a general overview of application into our serverless bootcamp.
 - If the bot says something went wrong, you can edit your code and commit again!
 
 ## 😀 How to use this repository
+> 💡 You can either follow the steps below or [watch our loom video](https://www.loom.com/share/7edcdb4f60a443ebbad80d2e7b962deb)!
+
 1. Click the green button in the upper-right corner with the text `Use this template`
 2. Name your repository something interesting, such as `bitprj-is-the-best`
 3. Wait for about 20 seconds for the repository to be created
