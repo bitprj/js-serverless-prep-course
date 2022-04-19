@@ -20,8 +20,8 @@ async function main() {
         userOutput = rl.running_late(testInput);
     }
     catch (e) {
-        console.log("Searching for function 'bubble_sort()'... function cannot be found");
-        await functions.throwError("Searching for function 'bubble_sort()'... function cannot be found", user, repo)
+        console.log(e);
+        await functions.throwError(e, user, repo)
         process.exit(1);
     }
 
@@ -40,8 +40,8 @@ async function main() {
         userOutput = rl.running_late(testInput);
     }
     catch (e) {
-        console.log("Searching for function 'running_late()'... function cannot be found");
-        await functions.throwError("Searching for function 'running_late()'... function cannot be found", user, repo)
+        console.log(e);
+        await functions.throwError(e, user, repo)
         process.exit(1);
     }
 
