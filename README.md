@@ -19,9 +19,9 @@ Here's a general overview of application into our serverless bootcamp.
 - If the bot says something went wrong, you can edit your code and commit again!
 
 ## 😀 How to use this repository
-> 💡 You can either follow the steps below or [watch our loom video](https://www.loom.com/share/7edcdb4f60a443ebbad80d2e7b962deb)!
+[Watch our loom video](https://www.loom.com/share/7edcdb4f60a443ebbad80d2e7b962deb) for steps on how to get started with this repo!
 
-1. Click the green button in the upper-right corner with the text `Use this template`
+<!-- 1. Click the green button in the upper-right corner with the text `Use this template`
 2. Name your repository something interesting, such as `bitprj-is-the-best`
 3. Wait for about 20 seconds for the repository to be created
 4. Click into the `Issues` tab
@@ -29,7 +29,7 @@ Here's a general overview of application into our serverless bootcamp.
 6. Choose the `🚀 Start Course` issue, and click `Get started`
 7. Click `Submit new issue`
 8. Click on the `Issues` tab again to refresh the page
-9. Click into the first issue, and get started :)
+9. Click into the first issue, and get started :) -->
 
 ## 📝 Once the first issue is created...
 1. Read the instructions COMPLETELY
