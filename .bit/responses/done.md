@@ -4,4 +4,4 @@
 
 #### Next Steps:
 1. Paste the link to this repo into [this form](https://airtable.com/shrWCZyXm4HlMMo7a) (make sure this repo is public)
-2. You have finished the application to Bit Project's Serverless Camp. We will reach out to you if you are selected. Good luck!
+2. Thank you for completing this prep course! You're now ready for Bit Project's Serverless Camp ⚡
